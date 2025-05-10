@@ -53,7 +53,6 @@ int main() {
 
     CartItem cart[10];  
     int cartCount = 0;
-
     char choice;
     do {
         // Show menu
