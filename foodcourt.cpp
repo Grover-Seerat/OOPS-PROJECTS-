@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-
+//USING CLASSES AND OBJECTS
 class FoodItem {
 public:
     int id;
@@ -19,7 +19,7 @@ public:
         cout << setw(5) << id << setw(25) << name << setw(10) << price << endl;
     }
 };
-
+//IMPLEMENTING INHERITANCE
 class OrderItem : public FoodItem {
     int quantity;
 public:
