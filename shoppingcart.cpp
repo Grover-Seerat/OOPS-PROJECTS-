@@ -1,8 +1,8 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-
-class Item {
+class Item 
+{
 public:
     int id;
     string name;
